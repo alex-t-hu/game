@@ -2,7 +2,7 @@
   "name": "spin",
   "version": "0.1.0",
   "description": "Spin remix of Flow",
-  "main": "main.js",
+  "main": "elec.js",
   "scripts": {
     "start": "electron ."
   },
