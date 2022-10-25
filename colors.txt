@@ -1,0 +1,5 @@
+Black Green: #01110A
+Honey Dew: #D5F2E3
+Ocean Green: #73BA9B
+Forest Green: #003E1F
+Orange: #BA2D0B

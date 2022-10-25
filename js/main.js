@@ -1,6 +1,3 @@
-canvas = document.getElementById("canvas")
+game = document.getElementsByClassName('game')[0];
+board = document.getElementsByClassName('board')[0];
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-ctx = canvas.getContext('2d')

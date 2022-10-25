@@ -4,12 +4,66 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="fonts/Inter/inter.css">
+    <link rel="stylesheet" href="fonts/FontAwesome/css/all.min.css">
+
     <title>Hello World!</title>
   </head>
   <body>
-    <canvas id="canvas"></canvas>
-    <script src="js/main.js"></script>
+    <div class="wrapper">
+      <h1 id="title">Spin</h1>
+
+      <div class="game">
+        <div class="board">
+          <div class="row1-w">
+            <div class="row1 col1 tile"></div>
+            <div class="row1 col2 tile"></div>
+            <div class="row1 col3 tile"></div>
+            <div class="row1 col4 tile"></div>
+            <div class="row1 col5 tile"></div>
+          </div>
+          <div class="row2-w">
+            <div class="row2 col1 tile"></div>
+            <div class="row2 col2 tile"></div>
+            <div class="row2 col3 tile"></div>
+            <div class="row2 col4 tile"></div>
+            <div class="row2 col5 tile"></div>
+          </div>
+          <div class="row3-w">
+            <div class="row3 col1 tile orange"></div>
+            <div class="row3 col2 tile"></div>
+            <div class="row3 col3 tile"></div>
+            <div class="row3 col4 tile"></div>
+            <div class="row3 col5 tile"></div>
+          </div>
+          <div class="row4-w">
+            <div class="row4 col1 tile"></div>
+            <div class="row4 col2 tile"></div>
+            <div class="row4 col3 tile orange"></div>
+            <div class="row4 col4 tile"></div>
+            <div class="row4 col5 tile"></div>
+          </div>
+          <div class="row5-w">
+            <div class="row5 col1 tile"></div>
+            <div class="row5 col2 tile"></div>
+            <div class="row5 col3 tile"></div>
+            <div class="row5 col4 tile"></div>
+            <div class="row5 col5 tile"></div>
+          </div>
+        </div>
+        <div class="tiles"></div>
+      </div>
+
+      <p><strong>How to play:</strong>
+        The object of the game is to do some really cool stuff and eventually connect point
+        A to point B. To make a connection you may need to rotate blocks. However rotation
+        of certain blocks is restricted. Try for yourself and enjoy!
+      </p>
+
+      <p>Made with <i class="fa-solid fa-heart" id="heart"></i> by Ishank, Alex, and Eric!</p>
+
+    </div>
   </body>
 </html>

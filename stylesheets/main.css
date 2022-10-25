@@ -1,0 +1,63 @@
+/*************
+* load fonts *
+*************/
+
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/**************
+* wrapper div *
+**************/
+
+body {
+    background-color: #D5F2E3;
+}
+
+.wrapper {
+    width: 520px;
+    margin: 0 auto;
+    color: #01110A;
+    padding-bottom: 60px;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#heart {
+    color: #BA2D0B;
+}
+
+/***********
+* game div *
+***********/
+
+.board {
+    height: 520px;
+    background-color: #01110A;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+
+.tile {
+    height: 80px;
+    width: 80px;
+    background-color: #D5F2E3;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: #BA2D0B;
+}
